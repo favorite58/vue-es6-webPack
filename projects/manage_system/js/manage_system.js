@@ -19,7 +19,7 @@ var vue = new Vue({
             sender: 'xx30',
             executor: 'xx31',
             operations: [{
-                edit: '编辑',
+                edit: '编辑22',
                 check: '查看',
                 delete: '删除'
             }]
