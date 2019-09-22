@@ -14,7 +14,7 @@ var vue = new Vue({
                 delete: '删除'
             }]
         }, {
-            task_title: '任务3',
+            task_title: '任务3555',
             create_time: '2017-07-03',
             sender: 'xx30',
             executor: 'xx31',
