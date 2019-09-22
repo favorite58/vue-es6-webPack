@@ -19,7 +19,7 @@ var vue = new Vue({
             sender: 'xx30',
             executor: 'xx31',
             operations: [{
-                edit: '编辑',
+            edit: '编辑22',
                 check: '查看',
                 delete: '删除'
             }]
@@ -51,16 +51,11 @@ var vue = new Vue({
             operations: [{
                 edit: '编辑',
                 check: '查看',
-                delete: '删除'
-            }]
-        }],
-        detail_copy: [{
-            task_title: '任务1',
+		delete: '删除' }] }],
+	detail_copy: [{ task_title: '任务1',
             create_time: '2017-07-01',
-            sender: 'xx10',
-            executor: 'xx11',
-            operations: [{
-                edit: '编辑',
+	    sender: 'xx10', executor: 'xx11',
+	    operations: [{ edit: '编辑',
                 check: '查看',
                 delete: '删除'
             }]
@@ -100,20 +95,17 @@ var vue = new Vue({
             sender: 'xx20',
             executor: 'xx21',
             operations: [{
-                edit: '编辑',
-                check: '查看',
-                delete: '删除'
-            }]
-        }],
+		edit: '编辑', check: '查看',
+		delete: '删除'
+	    }] }],
         curIndex: null,
         isRowStyle: false,
         isShowSearchBox: false,
         isTitle: false,
         isTime: false,
-        isSender: false,
+	isSender: false,
         isExecutor: false,
-        deleteFlag: false,
-        deleteMsg: [],
+	deleteFlag: false, deleteMsg: [],
         checkFlag: false,
         checkMsg: [],
         curMsg: {},
@@ -214,12 +206,10 @@ var vue = new Vue({
                             return this.detail.filter(function (item) {});
                         }
                         if (this.detail[i].create_time.indexOf(this.searchInfo) >= 0) {
-                            this.isTime = true;
-                        }
-                        if (this.detail[i].task_title.indexOf(this.searchInfo) >= 0) {
-                            this.isTitle = true;
-                        }
-                    }
+			    this.isTime = true; } if
+			    (this.detail[i].task_title.indexOf(this.searchInfo)
+				    >= 0) {
+			    this.isTitle = true; } }
                 } else {
                     for (var _i in this.detail) {
                         //非数字
